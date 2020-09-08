@@ -7,6 +7,11 @@ See [docs](https://aureooms.github.io/js-lempel-ziv/index.html).
 > :warning: The code requires `regeneratorRuntime` to be defined, for instance by importing
 > [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
 
+```js
+import {dict, encode, decode} from '@aureooms/js-lempel-ziv/lz78' ;
+[...decode(dict(), encode(dict(), 'abcd'))].join(''); // abcd
+```
+
 [![License](https://img.shields.io/github/license/aureooms/js-lempel-ziv.svg)](https://raw.githubusercontent.com/aureooms/js-lempel-ziv/master/LICENSE)
 [![Version](https://img.shields.io/npm/v/@aureooms/js-lempel-ziv.svg)](https://www.npmjs.org/package/@aureooms/js-lempel-ziv)
 [![Build](https://img.shields.io/travis/aureooms/js-lempel-ziv/master.svg)](https://travis-ci.org/aureooms/js-lempel-ziv/branches)
