@@ -1,7 +1,7 @@
 {
   "name": "@aureooms/js-lempel-ziv",
   "description": "Lempel-Ziv lossless data compression algorithms for JavaScript",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "aureooms",
   "ava": {
     "files": [
