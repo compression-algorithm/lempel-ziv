@@ -1,0 +1,19 @@
+{
+  "coverage": "14.28%",
+  "expectCount": 7,
+  "actualCount": 1,
+  "files": {
+    "src/lz78.js": {
+      "expectCount": 7,
+      "actualCount": 1,
+      "undocumentLines": [
+        28,
+        32,
+        47,
+        53,
+        59,
+        65
+      ]
+    }
+  }
+}
