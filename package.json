@@ -76,10 +76,12 @@
   "bugs": {
     "url": "https://github.com/aureooms/js-lempel-ziv/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@aureooms/js-persistent-stack": "^0.0.0",
+    "@aureooms/js-trie": "^0.0.1"
+  },
   "devDependencies": {
     "@aureooms/js-string": "^0.2.0",
-    "@aureooms/js-trie": "^0.0.1",
     "@babel/cli": "7.11.6",
     "@babel/core": "7.11.6",
     "@babel/preset-env": "7.11.5",
