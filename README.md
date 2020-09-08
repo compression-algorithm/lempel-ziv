@@ -1,4 +1,4 @@
-[@aureooms/js-lempel-ziv](https://aureooms.github.io/js-lempel-ziv)
+:luggage: [@aureooms/js-lempel-ziv](https://aureooms.github.io/js-lempel-ziv)
 ==
 
 Lempel-Ziv lossless data compression algorithms for JavaScript.
