@@ -30,7 +30,7 @@
     "@aureooms/js-error" "^4.0.1"
     "@aureooms/js-itertools" "^4.1.0"
 
-"@aureooms/js-string@^0.2.0":
+"@aureooms/js-string@0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@aureooms/js-string/-/js-string-0.2.0.tgz#ed5f9216c256ccb43b4c895424239d4c891d87d8"
   integrity sha1-7V+SFsJWzLQ7TIlUJCOdTIkdh9g=
