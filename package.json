@@ -1,8 +1,8 @@
 {
-  "name": "@aureooms/js-lempel-ziv",
+  "name": "@compression-algorithm/lempel-ziv",
   "description": "Lempel-Ziv lossless data compression algorithms for JavaScript",
   "version": "0.0.2",
-  "author": "aureooms",
+  "author": "make-github-pseudonymous-again",
   "ava": {
     "files": [
       "test/src/**/*"
@@ -74,7 +74,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/aureooms/js-lempel-ziv/issues"
+    "url": "https://github.com/compression-algorithm/lempel-ziv/issues"
   },
   "dependencies": {
     "@aureooms/js-persistent-stack": "^0.0.0",
@@ -105,7 +105,7 @@
   "files": [
     "lib"
   ],
-  "homepage": "https://aureooms.github.io/js-lempel-ziv",
+  "homepage": "https://compression-algorithm.github.io/lempel-ziv",
   "keywords": [
     "compression",
     "lempel",
@@ -120,7 +120,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aureooms/js-lempel-ziv"
+    "url": "https://github.com/compression-algorithm/lempel-ziv"
   },
   "scripts": {
     "build": "babel --delete-dir-on-start --env-name production src -d lib",

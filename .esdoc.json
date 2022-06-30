@@ -35,7 +35,7 @@
           "autoPrivate": true
         },
         "brand": {
-          "title": "@aureooms/js-lempel-ziv"
+          "title": "@compression-algorithm/lempel-ziv"
         },
         "test": {
           "type": "ava",

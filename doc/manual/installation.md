@@ -8,15 +8,15 @@ or [jspm](https://jspm.org/docs).
 
 ### yarn
 ```terminal
-yarn add @aureooms/js-lempel-ziv
+yarn add @compression-algorithm/lempel-ziv
 ```
 
 ### npm
 ```terminal
-npm install @aureooms/js-lempel-ziv --save
+npm install @compression-algorithm/lempel-ziv --save
 ```
 
 ### jspm
 ```terminal
-jspm install npm:@aureooms/js-lempel-ziv
+jspm install npm:@compression-algorithm/lempel-ziv
 ```

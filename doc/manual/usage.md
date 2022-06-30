@@ -12,7 +12,7 @@ import 'regenerator-runtime/runtime.js' ;
 
 Then, import the library where needed
 ```js
-const lempelziv = require( '@aureooms/js-lempel-ziv' ) ;
+const lempelziv = require( '@compression-algorithm/lempel-ziv' ) ;
 // or
-import * as lempelziv from '@aureooms/js-lempel-ziv' ;
+import * as lempelziv from '@compression-algorithm/lempel-ziv' ;
 ```
