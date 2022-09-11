@@ -50,6 +50,12 @@
           "./doc/scripts/header.js"
         ]
       }
+    },
+    {
+      "name": "esdoc-ecmascript-proposal-plugin",
+      "option": {
+        "all": true
+      }
     }
   ]
 }

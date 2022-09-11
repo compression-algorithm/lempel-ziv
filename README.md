@@ -4,7 +4,8 @@
 Lempel-Ziv lossless data compression algorithms for JavaScript.
 See [docs](https://compression-algorithm.github.io/lempel-ziv/index.html).
 
-> :warning: The code requires `regeneratorRuntime` to be defined, for instance by importing
+> :warning: Depending on your environment, the code may require
+> `regeneratorRuntime` to be defined, for instance by importing
 > [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
 
 ```js

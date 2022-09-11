@@ -6,8 +6,8 @@
   "author": "make-github-pseudonymous-again",
   "homepage": "https://compression-algorithm.github.io/lempel-ziv",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/compression-algorithm/lempel-ziv"
+    "url": "https://github.com/compression-algorithm/lempel-ziv",
+    "type": "git"
   },
   "bugs": {
     "url": "https://github.com/compression-algorithm/lempel-ziv/issues"

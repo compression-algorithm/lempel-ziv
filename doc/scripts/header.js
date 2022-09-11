@@ -10,7 +10,7 @@ const domReady = function (callback) {
 domReady(() => {
 	const projectname = document.createElement('a');
 	projectname.classList.add('project-name');
-	projectname.text = 'compression-algorithm/lempel-ziv';
+	projectname.text = '@compression-algorithm/lempel-ziv';
 	projectname.href = './index.html';
 
 	const header = document.querySelector('header');

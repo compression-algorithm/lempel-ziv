@@ -1,18 +1,19 @@
 # Usage
 
-> :warning: The code requires `regeneratorRuntime` to be defined, for instance by importing
+> :warning: Depending on your environment, the code may require
+> `regeneratorRuntime` to be defined, for instance by importing
 > [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
 
 First, require the polyfill at the entry point of your application
 ```js
-await import( 'regenerator-runtime/runtime.js' );
+await import('regenerator-runtime/runtime.js');
 // or
-import 'regenerator-runtime/runtime.js' ;
+import 'regenerator-runtime/runtime.js';
 ```
 
 Then, import the library where needed
 ```js
-const lempelziv = await import( '@compression-algorithm/lempel-ziv' ) ;
+const {lz78} = await import('@compression-algorithm/lempel-ziv');
 // or
-import * as lempelziv from '@compression-algorithm/lempel-ziv' ;
+import {lz78} from '@compression-algorithm/lempel-ziv';
 ```
