@@ -1,7 +1,7 @@
 import test from 'ava';
 
 import {mul} from '@aureooms/js-string';
-import {dict, encode, decode} from '../../src/lz78';
+import {dict, encode, decode} from '../../src/lz78.js';
 
 const alphabetaL = 'abcdefghijklmnopqrstuvwxyz';
 const alphabetaU = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
