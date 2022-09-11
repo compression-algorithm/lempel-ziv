@@ -1,6 +1,7 @@
 import test from 'ava';
 
 import {lz78} from '../../src/index.js';
+
 const {dict, encode, decode} = lz78;
 
 test('README', (t) => {

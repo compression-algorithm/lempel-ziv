@@ -3,6 +3,7 @@ import test from 'ava';
 import {mul} from '@aureooms/js-string';
 
 import {lz78} from '../../src/index.js';
+
 const {dict, encode, decode} = lz78;
 
 const alphabetaL = 'abcdefghijklmnopqrstuvwxyz';
@@ -22,7 +23,8 @@ const macro = (t, init, input) => {
 const repr = (string) =>
 	string.length >= 20 ? string.slice(0, 9) + '..' + string.slice(-9) : string;
 
-macro.title = (title, init, input) => title ?? `lz78 <${init.name}>: ${repr(input)}`;
+macro.title = (title, init, input) =>
+	title ?? `lz78 <${init.name}>: ${repr(input)}`;
 
 for (const init of [initEmpty, initAlphabet]) {
 	test(macro, init, '');
