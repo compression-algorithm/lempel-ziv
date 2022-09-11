@@ -5,14 +5,14 @@
 
 First, require the polyfill at the entry point of your application
 ```js
-require( 'regenerator-runtime/runtime' );
+await import( 'regenerator-runtime/runtime.js' );
 // or
 import 'regenerator-runtime/runtime.js' ;
 ```
 
 Then, import the library where needed
 ```js
-const lempelziv = require( '@compression-algorithm/lempel-ziv' ) ;
+const lempelziv = await import( '@compression-algorithm/lempel-ziv' ) ;
 // or
 import * as lempelziv from '@compression-algorithm/lempel-ziv' ;
 ```
