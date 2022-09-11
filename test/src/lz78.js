@@ -2,7 +2,7 @@ import test from 'ava';
 
 import {mul} from '@aureooms/js-string';
 
-import {lz78} from '../../src/index.js';
+import {lz78} from '#module';
 
 const {dict, encode, decode} = lz78;
 

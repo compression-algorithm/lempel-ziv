@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import {lz78} from '../../src/index.js';
+import {lz78} from '#module';
 
 const {dict, encode, decode} = lz78;
 
