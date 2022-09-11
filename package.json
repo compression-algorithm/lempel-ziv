@@ -1,7 +1,7 @@
 {
   "name": "@compression-algorithm/lempel-ziv",
   "description": "Lempel-Ziv lossless data compression algorithms for JavaScript",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "license": "AGPL-3.0",
   "author": "make-github-pseudonymous-again",
   "homepage": "https://compression-algorithm.github.io/lempel-ziv",
