@@ -201,7 +201,8 @@
         {
           "case": "camelCase"
         }
-      ]
+      ],
+      "unicorn/prefer-node-protocol": "off"
     },
     "ignores": [
       "lib",
