@@ -1,6 +1,8 @@
 import test from 'ava';
 
-import {dict, encode, decode} from '../../src/lz78.js';
+import {lz78} from '../../src/index.js';
+const {dict, encode, decode} = lz78;
+
 test('README', (t) => {
 	const input = 'abcd';
 	t.is(input, [...decode(dict(), encode(dict(), input))].join(''));

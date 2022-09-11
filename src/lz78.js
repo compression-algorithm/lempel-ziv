@@ -1,5 +1,5 @@
-import {Trie, ObjectNode} from '@aureooms/js-trie';
-import {push, iter} from '@aureooms/js-persistent-stack';
+import {Trie, ObjectNode} from '@trie-data-structure/uncompressed-trie';
+import {push, iter} from '@functional-data-structure/persistent-stack';
 
 /**
  * Simple Lempel-Ziv lossless data compression algorithm implementation.

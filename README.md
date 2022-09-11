@@ -8,7 +8,9 @@ See [docs](https://compression-algorithm.github.io/lempel-ziv/index.html).
 > [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
 
 ```js
-import {dict, encode, decode} from '@compression-algorithm/lempel-ziv/lz78' ;
+import {lz78} from '@compression-algorithm/lempel-ziv' ;
+const {dict, encode, decode} = lz78;
+
 [...decode(dict(), encode(dict(), 'abcd'))].join(''); // abcd
 ```
 

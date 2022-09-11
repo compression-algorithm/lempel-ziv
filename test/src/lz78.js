@@ -1,7 +1,9 @@
 import test from 'ava';
 
 import {mul} from '@aureooms/js-string';
-import {dict, encode, decode} from '../../src/lz78.js';
+
+import {lz78} from '../../src/index.js';
+const {dict, encode, decode} = lz78;
 
 const alphabetaL = 'abcdefghijklmnopqrstuvwxyz';
 const alphabetaU = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -20,7 +22,7 @@ const macro = (t, init, input) => {
 const repr = (string) =>
 	string.length >= 20 ? string.slice(0, 9) + '..' + string.slice(-9) : string;
 
-macro.title = (title, init, input) => `lz78 <${init.name}>: ${repr(input)}`;
+macro.title = (title, init, input) => title ?? `lz78 <${init.name}>: ${repr(input)}`;
 
 for (const init of [initEmpty, initAlphabet]) {
 	test(macro, init, '');
