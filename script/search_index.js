@@ -1,20 +1,20 @@
 window.esdocSearchIndex = [
   [
-    "@aureooms/js-lempel-ziv/src/lz78.js~decode",
+    "@compression-algorithm/lempel-ziv/src/lz78.js~decode",
     "function/index.html#static-function-decode",
-    "<span>decode</span> <span class=\"search-result-import-path\">@aureooms/js-lempel-ziv/src/lz78.js</span>",
+    "<span>decode</span> <span class=\"search-result-import-path\">@compression-algorithm/lempel-ziv/src/lz78.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-lempel-ziv/src/lz78.js~dict",
+    "@compression-algorithm/lempel-ziv/src/lz78.js~dict",
     "function/index.html#static-function-dict",
-    "<span>dict</span> <span class=\"search-result-import-path\">@aureooms/js-lempel-ziv/src/lz78.js</span>",
+    "<span>dict</span> <span class=\"search-result-import-path\">@compression-algorithm/lempel-ziv/src/lz78.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-lempel-ziv/src/lz78.js~encode",
+    "@compression-algorithm/lempel-ziv/src/lz78.js~encode",
     "function/index.html#static-function-encode",
-    "<span>encode</span> <span class=\"search-result-import-path\">@aureooms/js-lempel-ziv/src/lz78.js</span>",
+    "<span>encode</span> <span class=\"search-result-import-path\">@compression-algorithm/lempel-ziv/src/lz78.js</span>",
     "function"
   ],
   [

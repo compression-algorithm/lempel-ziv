@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl">
-  <title data-ice="title">Home | @aureooms/js-lempel-ziv</title>
+  <title data-ice="title">Home | @compression-algorithm/lempel-ziv</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
   <script src="script/manual.js"></script>
-<link rel="stylesheet" href="./inject/css/0-style.css"><script src="./inject/script/0-header.js"></script><meta name="description" content="Lempel-Ziv lossless data compression algorithms for JavaScript"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="@aureooms/js-lempel-ziv"><meta property="twitter:description" content="Lempel-Ziv lossless data compression algorithms for JavaScript"></head>
+<link rel="stylesheet" href="./inject/css/0-style.css"><script src="./inject/script/0-header.js"></script><meta name="description" content="Lempel-Ziv lossless data compression algorithms for JavaScript"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="@compression-algorithm/lempel-ziv"><meta property="twitter:description" content="Lempel-Ziv lossless data compression algorithms for JavaScript"></head>
 <body class="layout-container" data-ice="rootContainer">
 
 <header>
@@ -24,7 +24,7 @@
   </span>
     <ul class="search-result"></ul>
   </div>
-<a style="position:relative; top:3px;" href="https://github.com/aureooms/js-lempel-ziv"><img width="20px" src="./image/github.png"></a></header>
+<a style="position:relative; top:3px;" href="https://github.com/compression-algorithm/lempel-ziv"><img width="20px" src="./image/github.png"></a></header>
 
 <nav class="navigation" data-ice="nav"><div>
   <ul>
@@ -36,30 +36,30 @@
 </div>
 </nav>
 
-<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="-luggage---a-href--https---aureooms-github-io-js-lempel-ziv---aureooms-js-lempel-ziv--a-">:luggage: <a href="https://aureooms.github.io/js-lempel-ziv">@aureooms/js-lempel-ziv</a></h1><p>Lempel-Ziv lossless data compression algorithms for JavaScript.
-See <a href="https://aureooms.github.io/js-lempel-ziv/index.html">docs</a>.</p>
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="-luggage---a-href--https---compression-algorithm-github-io-lempel-ziv---compression-algorithm-lempel-ziv--a-">:luggage: <a href="https://compression-algorithm.github.io/lempel-ziv">@compression-algorithm/lempel-ziv</a></h1><p>Lempel-Ziv lossless data compression algorithms for JavaScript.
+See <a href="https://compression-algorithm.github.io/lempel-ziv/index.html">docs</a>.</p>
 <blockquote>
-<p>:warning: The code requires <code>regeneratorRuntime</code> to be defined, for instance by importing
+<p>:warning: Depending on your environment, the code may require
+<code>regeneratorRuntime</code> to be defined, for instance by importing
 <a href="https://www.npmjs.com/package/regenerator-runtime">regenerator-runtime/runtime</a>.</p>
 </blockquote>
-<pre><code class="lang-js"><code class="source-code prettyprint">import {dict, encode, decode} from &apos;@aureooms/js-lempel-ziv/lz78&apos; ;
+<pre><code class="lang-js"><code class="source-code prettyprint">import {lz78} from &apos;@compression-algorithm/lempel-ziv&apos; ;
+const {dict, encode, decode} = lz78;
+
 [...decode(dict(), encode(dict(), &apos;abcd&apos;))].join(&apos;&apos;); // abcd</code>
 </code></pre>
-<p><a href="https://raw.githubusercontent.com/aureooms/js-lempel-ziv/master/LICENSE"><img src="https://img.shields.io/github/license/aureooms/js-lempel-ziv.svg" alt="License"></a>
-<a href="https://www.npmjs.org/package/@aureooms/js-lempel-ziv"><img src="https://img.shields.io/npm/v/@aureooms/js-lempel-ziv.svg" alt="Version"></a>
-<a href="https://travis-ci.org/aureooms/js-lempel-ziv/branches"><img src="https://img.shields.io/travis/aureooms/js-lempel-ziv/master.svg" alt="Build"></a>
-<a href="https://david-dm.org/aureooms/js-lempel-ziv"><img src="https://img.shields.io/david/aureooms/js-lempel-ziv.svg" alt="Dependencies"></a>
-<a href="https://david-dm.org/aureooms/js-lempel-ziv?type=dev"><img src="https://img.shields.io/david/dev/aureooms/js-lempel-ziv.svg" alt="Dev dependencies"></a>
-<a href="https://github.com/aureooms/js-lempel-ziv/issues"><img src="https://img.shields.io/github/issues/aureooms/js-lempel-ziv.svg" alt="GitHub issues"></a>
-<a href="https://www.npmjs.org/package/@aureooms/js-lempel-ziv"><img src="https://img.shields.io/npm/dm/@aureooms/js-lempel-ziv.svg" alt="Downloads"></a></p>
-<p><a href="https://codeclimate.com/github/aureooms/js-lempel-ziv/issues"><img src="https://img.shields.io/codeclimate/issues/aureooms/js-lempel-ziv.svg" alt="Code issues"></a>
-<a href="https://codeclimate.com/github/aureooms/js-lempel-ziv/trends/churn"><img src="https://img.shields.io/codeclimate/maintainability/aureooms/js-lempel-ziv.svg" alt="Code maintainability"></a>
-<a href="https://codecov.io/gh/aureooms/js-lempel-ziv"><img src="https://img.shields.io/codecov/c/gh/aureooms/js-lempel-ziv/master.svg" alt="Code coverage (cov)"></a>
-<!--[![Code coverage (alls)](https://img.shields.io/coveralls/github/aureooms/js-lempel-ziv/master.svg)](https://coveralls.io/r/aureooms/js-lempel-ziv)-->
-<!--[![Code coverage (clim)](https://img.shields.io/codeclimate/coverage/aureooms/js-lempel-ziv.svg)](https://codeclimate.com/github/aureooms/js-lempel-ziv/trends/test_coverage_new_code)-->
-<a href="https://codeclimate.com/github/aureooms/js-lempel-ziv/trends/technical_debt"><img src="https://img.shields.io/codeclimate/tech-debt/aureooms/js-lempel-ziv.svg" alt="Code technical debt"></a>
-<a href="https://aureooms.github.io/js-lempel-ziv/source.html"><img src="https://aureooms.github.io/js-lempel-ziv/badge.svg" alt="Documentation"></a>
-<a href="https://bundlephobia.com/result?p=@aureooms/js-lempel-ziv"><img src="https://img.shields.io/bundlephobia/minzip/@aureooms/js-lempel-ziv" alt="Package size"></a></p>
+<p><a href="https://raw.githubusercontent.com/compression-algorithm/lempel-ziv/main/LICENSE"><img src="https://img.shields.io/github/license/compression-algorithm/lempel-ziv.svg" alt="License"></a>
+<a href="https://www.npmjs.org/package/@compression-algorithm/lempel-ziv"><img src="https://img.shields.io/npm/v/@compression-algorithm/lempel-ziv.svg" alt="Version"></a>
+<a href="https://github.com/compression-algorithm/lempel-ziv/actions/workflows/ci.yml?query=branch:main"><img src="https://img.shields.io/github/workflow/status/compression-algorithm/lempel-ziv/ci?event=push&amp;label=tests" alt="Tests"></a>
+<a href="https://github.com/compression-algorithm/lempel-ziv/network/dependencies"><img src="https://img.shields.io/librariesio/github/compression-algorithm/lempel-ziv.svg" alt="Dependencies"></a>
+<a href="https://github.com/compression-algorithm/lempel-ziv/issues"><img src="https://img.shields.io/github/issues/compression-algorithm/lempel-ziv.svg" alt="GitHub issues"></a>
+<a href="https://www.npmjs.org/package/@compression-algorithm/lempel-ziv"><img src="https://img.shields.io/npm/dm/@compression-algorithm/lempel-ziv.svg" alt="Downloads"></a></p>
+<p><a href="https://codeclimate.com/github/compression-algorithm/lempel-ziv/issues"><img src="https://img.shields.io/codeclimate/issues/compression-algorithm/lempel-ziv.svg" alt="Code issues"></a>
+<a href="https://codeclimate.com/github/compression-algorithm/lempel-ziv/trends/churn"><img src="https://img.shields.io/codeclimate/maintainability/compression-algorithm/lempel-ziv.svg" alt="Code maintainability"></a>
+<a href="https://codecov.io/gh/compression-algorithm/lempel-ziv"><img src="https://img.shields.io/codecov/c/gh/compression-algorithm/lempel-ziv/main.svg" alt="Code coverage (cov)"></a>
+<a href="https://codeclimate.com/github/compression-algorithm/lempel-ziv/trends/technical_debt"><img src="https://img.shields.io/codeclimate/tech-debt/compression-algorithm/lempel-ziv.svg" alt="Code technical debt"></a>
+<a href="https://compression-algorithm.github.io/lempel-ziv/source.html"><img src="https://compression-algorithm.github.io/lempel-ziv/badge.svg" alt="Documentation"></a>
+<a href="https://bundlephobia.com/result?p=@compression-algorithm/lempel-ziv"><img src="https://img.shields.io/bundlephobia/minzip/@compression-algorithm/lempel-ziv" alt="Package size"></a></p>
 </div>
 </div>
 
