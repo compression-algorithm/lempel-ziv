@@ -204,10 +204,6 @@
       ],
       "unicorn/prefer-node-protocol": "off"
     },
-    "ignores": [
-      "lib",
-      "doc"
-    ],
     "overrides": [
       {
         "files": [
