@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import {mul} from '@aureooms/js-string';
+import {mul} from '@string-plumbing/mul';
 
 import {lz78} from '#module';
 

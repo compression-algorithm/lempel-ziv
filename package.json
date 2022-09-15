@@ -73,7 +73,6 @@
     "@trie-data-structure/uncompressed-trie": "^1.0.0"
   },
   "devDependencies": {
-    "@aureooms/js-string": "1.0.0",
     "@babel/core": "7.19.1",
     "@babel/plugin-transform-destructuring": "7.18.13",
     "@babel/plugin-transform-for-of": "7.18.8",
@@ -83,6 +82,7 @@
     "@node-loader/babel": "2.0.1",
     "@node-loader/core": "2.0.0",
     "@node-loader/import-maps": "1.1.0",
+    "@string-plumbing/mul": "^0.0.1",
     "ava": "4.3.3",
     "babel-plugin-transform-remove-console": "6.9.4",
     "babel-plugin-unassert": "3.2.0",
