@@ -17,7 +17,7 @@ const {dict, encode, decode} = lz78;
 
 [![License](https://img.shields.io/github/license/compression-algorithm/lempel-ziv.svg)](https://raw.githubusercontent.com/compression-algorithm/lempel-ziv/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@compression-algorithm/lempel-ziv.svg)](https://www.npmjs.org/package/@compression-algorithm/lempel-ziv)
-[![Tests](https://img.shields.io/github/workflow/status/compression-algorithm/lempel-ziv/ci?event=push&label=tests)](https://github.com/compression-algorithm/lempel-ziv/actions/workflows/ci.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/actions/workflow/status/compression-algorithm/lempel-ziv/ci.yml?branch=main&event=push&label=tests)](https://github.com/compression-algorithm/lempel-ziv/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/compression-algorithm/lempel-ziv.svg)](https://github.com/compression-algorithm/lempel-ziv/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/compression-algorithm/lempel-ziv.svg)](https://github.com/compression-algorithm/lempel-ziv/issues)
 [![Downloads](https://img.shields.io/npm/dm/@compression-algorithm/lempel-ziv.svg)](https://www.npmjs.org/package/@compression-algorithm/lempel-ziv)
