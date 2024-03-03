@@ -1,5 +1,5 @@
-import {Trie, ObjectNode} from '@trie-data-structure/uncompressed-trie';
 import {push, iter} from '@functional-data-structure/persistent-stack';
+import {Trie, ObjectNode} from '@trie-data-structure/uncompressed-trie';
 
 /**
  * Simple Lempel-Ziv lossless data compression algorithm implementation.
